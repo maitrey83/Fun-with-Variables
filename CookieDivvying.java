@@ -5,6 +5,11 @@
 import acm.program.*;
 
 public class CookieDivvying extends ConsoleProgram {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3532278711942220524L;
+
 	public void run() {
 		/* Everyone should see cookies! */
 		setFont("DejaVuSerif-BOLD-24");
@@ -23,6 +28,6 @@ public class CookieDivvying extends ConsoleProgram {
 		//int fahrenheit = 45;
 		int fahrenheit = readInt("Enter Fahrenheit = ");
 		int celsius = (fahrenheit - 32) * (5 / 9);
-		println("Celsius is - " + celsius + " degree");
+		println("Celsius is " + celsius + " degree");
 	}
 }
