@@ -26,7 +26,7 @@ public class CookieDivvying extends ConsoleProgram {
 		int num1 = 32;
 		double num2 = 0.56;
 		println("This program converts fahrenheit to celsius");
-		int celsius = (int) ((readInt("Enter Fahrenheit = ") - num1) * num2);
+		int celsius = (int) ((readInt("Enter Fahrenheit = ") - num1) * num2)));
 		println("Celsius is " + celsius + " degree");
 	}
 }
