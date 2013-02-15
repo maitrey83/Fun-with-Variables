@@ -10,7 +10,7 @@ public class MusicalJava extends ConsoleProgram {
 		setFont("DejaVuSerif-BOLD-24");
 		
 		println("Oppan Gangnam Style");
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 4; i++) {
 			println("Gangnam Style");
 			
 			for (int j = 0; j < 4; j++) {
