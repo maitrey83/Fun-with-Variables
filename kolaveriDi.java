@@ -10,9 +10,14 @@ public class kolaveriDi extends ConsoleProgram {
 		
 	public void run() {
 		setFont("DejaVuSerif-BOLD-24");
-	
-		println("WHy this Why this Kolaveri Kolaveri Di");	
 		
+		for(int i = 0; i < 2; i++) {
+			println("Why This!");
+		}
+		for(int i = 0; i < 2; i++) {
+			println("Kolavery");
+		}
+		println("Di!!!");
 	}
 
 }
