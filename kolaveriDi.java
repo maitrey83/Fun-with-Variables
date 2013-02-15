@@ -18,6 +18,7 @@ public class kolaveriDi extends ConsoleProgram {
 			print("Kolavery ");
 		}
 		print("Di!!!");
-	}
-println("Mund Mund");
+
+	println("Mund Mund");
+}
 }
