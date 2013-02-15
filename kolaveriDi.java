@@ -15,7 +15,7 @@ public class kolaveriDi extends ConsoleProgram {
 			println("Why This!");
 		}
 		for(int i = 0; i < 2; i++) {
-			println("Kolavery");
+			print("Kolavery");
 		}
 		print(" Di!!!");
 	}
