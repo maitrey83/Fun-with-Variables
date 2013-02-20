@@ -14,7 +14,9 @@ public class fahrenheitCalculator extends ConsoleProgram {
 	}
 	}
 		private int celsius(int fahrenheit) {
-			int celsius = (fahrenheit - 32)*(5/9);
-			return celsius;
+			int celsius = 0; 
+			celsius = (fahrenheit - 32)*(5/9);
+			
 		}	
+		return celsius;
 }
