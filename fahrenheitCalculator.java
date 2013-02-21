@@ -4,7 +4,7 @@ import acm.program.*;
 public class fahrenheitCalculator extends ConsoleProgram {
 
 	public  void run () {
-		int fahrenheit = readInt("enter fahrenheit: ");
+		int fahrenheit = 100;
 		println("Celsius " + celsius(fahrenheit));
 	}
 		private int celsius(int fahrenheit) {
