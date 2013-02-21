@@ -12,7 +12,7 @@ public class fahrenheitCalculator extends ConsoleProgram {
 			double value1 = 0.54;
 			double value2 = 32;
 			int celsius = 0;
-			celsius = (int) ((celsius - value2)*value1);
+			celsius = (int) ((fahrenheit - value2)*value1);
 			return (int) celsius;	
 		}	
 			 
