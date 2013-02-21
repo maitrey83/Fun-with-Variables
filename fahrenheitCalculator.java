@@ -4,6 +4,14 @@ import acm.program.*;
 public class fahrenheitCalculator extends ConsoleProgram {
 	private static final int value2 = 32;
 	private static final double value1 = 0.55;
+	
+	
+	//created Method or function for converting fahrenheit to celsius
+	private int cels(int fahrenheit) {
+			//equation celsius = (fahrenheit - 32)*(5/9)
+			int celsius = (int) ((fahrenheit - value2)*value1);
+			return celsius;	
+		}	
 	public  void run () {
 		//user enters fahrenheit temperature
 		int fahrenheit = readInt("Fahrenheit: ");
@@ -18,11 +26,5 @@ public class fahrenheitCalculator extends ConsoleProgram {
 			println("It can snow anytime");
 		}
 	}
-	//created Method or function for converting fahrenheit to celsius
-	private int cels(int fahrenheit) {
-			//equation celsius = (fahrenheit - 32)*(5/9)
-			int celsius = (int) ((fahrenheit - value2)*value1);
-			return celsius;	
-		}	
-			 
+	
 }
