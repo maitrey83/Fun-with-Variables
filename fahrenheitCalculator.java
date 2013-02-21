@@ -9,12 +9,10 @@ public class fahrenheitCalculator extends ConsoleProgram {
 		println("Celsius: " + cels(fahrenheit));
 		if (cels(fahrenheit) > 10){
 			println("Yuppie Summer is back!!!");
-		} if (cels(fahrenheit) < 0){
+		} if (cels(fahrenheit) <= 0){
 			println("it's freezing!!!");
 			
-		} 
-		
-		else {
+		} else {
 			print("Gosh!!! I hate winter");
 		}
 		
