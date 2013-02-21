@@ -5,13 +5,15 @@ public class fahrenheitCalculator extends ConsoleProgram {
 
 	public  void run () {
 		int celsius = readInt("Fahrenheit: ");
-		println("Celsius: " + cels(celsius));
+		int fahrenheit = 0;
+		println("Celsius: " + cels(fahrenheit));
 	}
-		private int cels(double celsius2) {
+		private int cels(int fahrenheit) {
 			double value1 = 0.54;
 			double value2 = 32;
-			double celsius = (celsius2 - value2)*value1;
-			return celsius;	
+			int celsius = 0;
+			celsius = (int) ((celsius - value2)*value1);
+			return (int) celsius;	
 		}	
 			 
 }
