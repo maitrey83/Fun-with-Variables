@@ -11,7 +11,7 @@ public class fahrenheitCalculator extends ConsoleProgram {
 			println("Yuppie Summer is back!!!");
 		} if (cels(fahrenheit) == 0){
 			println("it's freezing!!!");
-		} else {
+		} if(cels(fahrenheit) < 0) {
 			println("It can snow anytime");
 		}
 	}
