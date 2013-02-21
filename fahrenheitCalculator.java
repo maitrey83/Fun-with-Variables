@@ -7,7 +7,7 @@ public class fahrenheitCalculator extends ConsoleProgram {
 		println("Celsius: " + celsius(100));
 	}
 		private int celsius(int fahrenheit) {
-			double celsius = ((fahrenheit - 32))*(5/9);
+			double celsius = (fahrenheit - 32)*(5/9);
 			return (int) celsius;
 		}	
 	
